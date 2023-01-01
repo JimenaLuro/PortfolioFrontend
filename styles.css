@@ -77,6 +77,11 @@ html {
     font-size: 130%;
 }
 
+#inicio .contenido header .contenido-header .seleccionado {
+    color: aqua;
+    font-size: 130%;
+}
+
 #inicio .contenido .presentacion {
     max-width: 1100px;
     height: 100vh;
@@ -561,4 +566,74 @@ footer a {
     #icono-nav {
         display: block;
     }
+
+    #inicio .contenido .presentacion h2 {
+        font-size: 40px;
+    }
+
+    #sobremi {
+        padding: 50px 0;
+        display: block;
+    }
+
+    #sobremi .contenedor-foto {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    #sobremi .contenedor-foto img {
+        padding: 8px;
+    }
+
+    #sobremi .sobremi .titulo-seccion {
+        text-align: center;
+    }
+
+    #sobremi .sobremi h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #servicios {
+        padding: 50px 15px;
+    }
+
+    #servicios .fila {
+        display: block;
+    }
+
+    #servicios .fila .servicio {
+        margin: 10px auto;
+    }
+
+    .contenedor-skills {
+        padding: 50px 20px;
+    }
+
+    #portfolio {
+        padding: 50px 0;
+    }
+
+    #portfolio .fila {
+        display: block;
+    }
+
+    #portfolio .fila .proyecto {
+        margin: 10px auto;
+    }
+
+    #contacto {
+        padding: 50px 15px;
+    }
+
+    #contacto .contenedor-form .mitad {
+    margin-bottom: 15px;
+    display: block;
+    }
+
+    #contacto .contenedor-form .mitad input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
 }
